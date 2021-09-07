@@ -48,33 +48,16 @@
     },
     {
         "fields": {
-            "about": "This is a sample organization. You can use organizations to split up your user base, host private contests, and more.",
-            "access_code": null,
-            "admins": [
-                1
-            ],
-            "creation_date": "2017-12-02T08:50:25.199Z",
-            "is_open": true,
-            "slug": "dmoj",
-            "name": "DMOJ: Modern Online Judge",
-            "short_name": "DMOJ",
-            "slots": null
-        },
-        "model": "judge.organization",
-        "pk": 1
-    },
-    {
-        "fields": {
-            "full_name": "Simple Math",
-            "name": "Simple Math"
+            "full_name": "Chưa phân loại",
+            "name": "Chưa phân loại"
         },
         "model": "judge.problemtype",
         "pk": 1
     },
     {
         "fields": {
-            "full_name": "Uncategorized",
-            "name": "Uncategorized"
+            "full_name": "Chưa phân loại",
+            "name": "Chưa phân loại"
         },
         "model": "judge.problemgroup",
         "pk": 1
@@ -132,7 +115,7 @@
             "authors": [
                 1
             ],
-            "content": "Welcome to DMOJ!\n\n```python\nprint \"Hello, World!\"\n```\n\nYou can get started by checking out [this problem we've added for you](/problem/aplusb).",
+            "content": "Welcome to LTTOJ!\n\n```python\nprint \"Hello, World!\"\n```\n\nYou can get started by checking out [this problem we've added for you](/problem/aplusb).",
             "og_image": "",
             "publish_on": "2017-12-02T05:00:00Z",
             "slug": "first-post",
@@ -146,25 +129,8 @@
     },
     {
         "fields": {
-            "author": 1,
-            "body": "This is your first comment!",
-            "hidden": false,
-            "level": 0,
-            "lft": 1,
-            "page": "b:1",
-            "parent": null,
-            "rght": 2,
-            "score": 0,
-            "time": "2017-12-02T08:46:54.007Z",
-            "tree_id": 1
-        },
-        "model": "judge.comment",
-        "pk": 1
-    },
-    {
-        "fields": {
-            "domain": "localhost:8081",
-            "name": "DMOJ: Modern Online Judge"
+            "domain": "localhost:8000",
+            "name": "LTTOJ: Modern Online Judge"
         },
         "model": "sites.site",
         "pk": 1

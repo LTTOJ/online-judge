@@ -17,73 +17,9 @@ msgstr ""
 "X-Crowdin-File: django.po\n"
 "X-Crowdin-File-ID: 10\n"
 
-#: dmoj/settings.py:368
-msgid "Catalan"
-msgstr "Catalan"
-
-#: dmoj/settings.py:369
-msgid "German"
-msgstr "Tiếng Đức"
-
-#: dmoj/settings.py:370
-msgid "English"
-msgstr "Tiếng Anh"
-
-#: dmoj/settings.py:371
-msgid "Spanish"
-msgstr "Tiếng Tây Ban Nha"
-
-#: dmoj/settings.py:372
-msgid "French"
-msgstr "Tiếng Pháp"
-
-#: dmoj/settings.py:373
-msgid "Croatian"
-msgstr "Tiếng Croatia"
-
-#: dmoj/settings.py:374
-msgid "Hungarian"
-msgstr "Tiếng Hung-ga-ri"
-
-#: dmoj/settings.py:375
-msgid "Japanese"
-msgstr "Tiếng Nhật Bản"
-
-#: dmoj/settings.py:376
-msgid "Korean"
-msgstr "Tiếng Hàn Quốc"
-
-#: dmoj/settings.py:377
-msgid "Brazilian Portuguese"
-msgstr "Tiếng Braxin-Bồ Đào Nha"
-
-#: dmoj/settings.py:378
-msgid "Romanian"
-msgstr "Tiếng Romania"
-
-#: dmoj/settings.py:379
-msgid "Russian"
-msgstr "Tiếng Nga"
-
-#: dmoj/settings.py:380
-msgid "Serbian (Latin)"
-msgstr "Tiếng Séc-bi (Latin)"
-
-#: dmoj/settings.py:381
-msgid "Turkish"
-msgstr "Tiếng Thổ Nhĩ Kỳ"
-
 #: dmoj/settings.py:382
 msgid "Vietnamese"
 msgstr "Tiếng Việt"
-
-#: dmoj/settings.py:383
-msgid "Simplified Chinese"
-msgstr "Tiếng Trung (Giản thể)"
-
-#: dmoj/settings.py:384
-msgid "Traditional Chinese"
-msgstr "Tiếng Trung phồn thể"
 
 #: dmoj/urls.py:104 templates/base.html:190
 msgid "Home"
@@ -115,14 +51,14 @@ msgstr "Trang liên kết"
 
 #: judge/admin/contest.py:32
 msgid "Included contests"
-msgstr "Các cuộc thi"
+msgstr "Các kỳ thi"
 
 #: judge/admin/contest.py:66 templates/contest/contest.html:192
 #: templates/contest/moss.html:43 templates/problem/list.html:204
 #: templates/problem/list.html:219 templates/user/user-problems.html:58
 #: templates/user/user-problems.html:100
 msgid "Problem"
-msgstr "Đề bài"
+msgstr "Bài"
 
 #: judge/admin/contest.py:117
 msgid "Settings"
@@ -130,7 +66,7 @@ msgstr "Cài đặt"
 
 #: judge/admin/contest.py:120
 msgid "Scheduling"
-msgstr "Kế hoạch"
+msgstr "Lịch"
 
 #: judge/admin/contest.py:121
 msgid "Details"
@@ -138,11 +74,11 @@ msgstr "Chi tiêt"
 
 #: judge/admin/contest.py:122
 msgid "Format"
-msgstr "Định dạng"
+msgstr ""
 
 #: judge/admin/contest.py:123 templates/contest/ranking-table.html:5
 msgid "Rating"
-msgstr "Xếp loại"
+msgstr ""
 
 #: judge/admin/contest.py:124
 msgid "Access"
@@ -180,17 +116,17 @@ msgstr[0] "Đã khóa %d cuộc thi thành công."
 
 #: judge/admin/contest.py:236
 msgid "Lock contest submissions"
-msgstr "khóa bài thi"
+msgstr ""
 
 #: judge/admin/contest.py:242
 #, python-format
 msgid "%d contest successfully unlocked."
 msgid_plural "%d contests successfully unlocked."
-msgstr[0] "Mở khóa %d cuộc thi thành công."
+msgstr[0] ""
 
 #: judge/admin/contest.py:245
 msgid "Unlock contest submissions"
-msgstr "gỡ khóa bài thi"
+msgstr ""
 
 #: judge/admin/contest.py:266 judge/admin/submission.py:170
 #, python-format
@@ -202,7 +138,7 @@ msgstr[0] "%d bài nộp đã được lên lịch để chấm lại."
 #, python-format
 msgid "%d participation recalculated."
 msgid_plural "%d participations recalculated."
-msgstr[0] "%d tham gia tính lại."
+msgstr[0] "%d người tham gia đã được tính lại."
 
 #: judge/admin/contest.py:344
 msgid "Recalculate results"
@@ -226,7 +162,7 @@ msgstr "Nội dung"
 
 #: judge/admin/interface.py:73
 msgid "Summary"
-msgstr "Tổng hợp"
+msgstr "Tóm tắt"
 
 #: judge/admin/interface.py:113 judge/models/contest.py:423
 #: judge/models/contest.py:552 judge/models/profile.py:267
@@ -284,31 +220,31 @@ msgstr "Tác giả"
 #, python-format
 msgid "%d problem's publish date successfully updated."
 msgid_plural "%d problems' publish date successfully updated."
-msgstr[0] "%d ngày xuất bản của bài tập đã được cập nhật."
+msgstr[0] "%d ngày công bố của bài tập đã được cập nhật."
 
 #: judge/admin/problem.py:196
 msgid "Set publish date to now"
-msgstr "Chỉnh thời gian xuất bản đến hiện tại"
+msgstr "Chỉnh thời gian công bố  đến hiện tại"
 
 #: judge/admin/problem.py:202
 #, python-format
 msgid "%d problem successfully marked as public."
 msgid_plural "%d problems successfully marked as public."
-msgstr[0] "%d bài toán đã được công bố."
+msgstr[0] "%d bài tập đã được công bố."
 
 #: judge/admin/problem.py:206
 msgid "Mark problems as public"
-msgstr "Công bố đề bài"
+msgstr "Công bố  bài"
 
 #: judge/admin/problem.py:212
 #, python-format
 msgid "%d problem successfully marked as private."
 msgid_plural "%d problems successfully marked as private."
-msgstr[0] "%d bài toán đã được đánh dấu là cá nhân."
+msgstr[0] "Đã ẩn %d bài."
 
 #: judge/admin/problem.py:216
 msgid "Mark problems as private"
-msgstr "Đánh dấu bài toán là cá nhân"
+msgstr "Ẩn bài"
 
 #: judge/admin/profile.py:35
 msgid "timezone"
@@ -323,7 +259,7 @@ msgstr "Thành viên"
 
 #: judge/admin/profile.py:103 templates/registration/registration_form.html:143
 msgid "Email"
-msgstr "Hộp thư"
+msgstr "Địa chỉ email"
 
 #: judge/admin/profile.py:108 judge/views/register.py:28
 #: templates/registration/registration_form.html:171
@@ -339,7 +275,7 @@ msgstr "ngày tham gia"
 #, python-format
 msgid "%d user have scores recalculated."
 msgid_plural "%d users have scores recalculated."
-msgstr[0] "%d người dùng có tính lại điểm."
+msgstr[0] "%d người dùng đã được tính lại điểm."
 
 #: judge/admin/profile.py:123
 msgid "Recalculate scores"
@@ -347,11 +283,11 @@ msgstr "Tính lại điểm"
 
 #: judge/admin/runtime.py:19
 msgid "Disallowed problems"
-msgstr "Đề bài không được cho phép"
+msgstr ""
 
 #: judge/admin/runtime.py:22
 msgid "These problems are NOT allowed to be submitted in this language"
-msgstr "Đề này KHÔNG được cho phép nộp bằng ngôn ngữ này"
+msgstr "Đề này không được cho phép nộp bằng ngôn ngữ này"
 
 #: judge/admin/runtime.py:77
 msgid "Description"
@@ -439,11 +375,11 @@ msgstr "Bộ nhớ"
 
 #: judge/admin/taxon.py:11 judge/admin/taxon.py:34
 msgid "Included problems"
-msgstr "Bao gồm các đề"
+msgstr "Bao gồm các bài"
 
 #: judge/admin/taxon.py:14
 msgid "These problems are included in this group of problems"
-msgstr "Các đề bài này đã được bao gồm trong nhóm"
+msgstr "Các bài này đã được bao gồm trong nhóm"
 
 #: judge/admin/taxon.py:37
 msgid "These problems are included in this type of problems"
@@ -463,7 +399,7 @@ msgstr "Không có phần nói của ngươi, đồ cóc ghẻ."
 
 #: judge/comments.py:49 templates/comments/list.html:142
 msgid "You need to have solved at least one problem before your voice can be heard."
-msgstr "Bạn cần giải được ít nhất một bài tập trước khi lời nói của bạn có thể được lắng nghe."
+msgstr "Bạn cần giải được ít nhất một bài trước khi bình luận."
 
 #: judge/comments.py:93
 msgid "Posted comment"
@@ -476,17 +412,19 @@ msgstr "AtCoder"
 #: judge/contest_format/atcoder.py:117 judge/contest_format/default.py:79
 #: judge/contest_format/icpc.py:127 judge/contest_format/legacy_ioi.py:97
 msgid "The maximum score submission for each problem will be used."
-msgstr ""
+msgstr "Điểm của bài sẽ là điểm của lần nộp bài có điểm lớn nhất."
 
 #: judge/contest_format/atcoder.py:122 judge/contest_format/icpc.py:132
 #, python-format
 msgid "Each submission before the first maximum score submission will incur a **penalty of %d minute**."
 msgid_plural "Each submission before the first maximum score submission will incur a **penalty of %d minutes**."
-msgstr[0] ""
+msgstr[0] "Các lần nộp bài trước lần nộp bài có điểm lớn nhất sẽ tính **penalty %d "
+"phút**."
 
 #: judge/contest_format/atcoder.py:127
 msgid "Ties will be broken by the last score altering submission time."
-msgstr ""
+msgstr "Các thí sinh bằng điểm sẽ được phân định bằng thời gian của **lần nộp bài "
+"cuối cùng làm thay đổi kết quả**."
 
 #: judge/contest_format/default.py:18
 msgid "Default"
@@ -494,7 +432,8 @@ msgstr "Mặc định"
 
 #: judge/contest_format/default.py:80
 msgid "Ties will be broken by the sum of the last submission time on problems with a non-zero score."
-msgstr ""
+msgstr "Các thí sinh bằng điểm sẽ được phân định bằng tổng thời gian của **lần nộp "
+"bài cuối cùng** trong các bài tập có điểm lớn hơn 0."
 
 #: judge/contest_format/ecoo.py:18
 msgid "ECOO"
@@ -502,27 +441,31 @@ msgstr "ECOO"
 
 #: judge/contest_format/ecoo.py:130
 msgid "The score on your **last** non-CE submission for each problem will be used."
-msgstr ""
+msgstr "Điểm của bài sẽ là điểm của lần nộp **cuối cùng** không bị Biên dịch gặp lỗi "
+"(Compile Error)."
 
 #: judge/contest_format/ecoo.py:135
 #, python-format
 msgid "There is a **%d bonus** for fully solving on your first non-CE submission."
-msgstr ""
+msgstr "Sẽ có **%d điểm thưởng** nếu bạn AC ở lần nộp đầu tiên không bị Biên dịch "
+"gặp lỗi (Compile Error)."
 
 #: judge/contest_format/ecoo.py:141
 #, python-format
 msgid "For every **%d minute** you submit before the end of your window, there will be a **1** point bonus."
 msgid_plural "For every **%d minutes** you submit before the end of your window, there will be a **1** point bonus."
-msgstr[0] ""
+msgstr[0] "Bạn sẽ được thưởng **1** điểm với mỗi **%d phút** bạn nộp bài trước giờ kết "
+"thúc."
 
 #: judge/contest_format/ecoo.py:147
 msgid "Ties will be broken by the sum of the last submission time on **all** problems."
-msgstr ""
+msgstr "Các thí sinh bằng điểm sẽ được phân định bằng tổng thời gian của lần nộp bài "
+"cuối cùng trong **tất cả*** bài tập."
 
 #: judge/contest_format/ecoo.py:149 judge/contest_format/ioi.py:102
 #: judge/contest_format/legacy_ioi.py:103
 msgid "Ties by score will **not** be broken."
-msgstr ""
+msgstr "Những người bằng điểm sẽ có cùng thứ hạng."
 
 #: judge/contest_format/icpc.py:19
 msgid "ICPC"
@@ -530,7 +473,10 @@ msgstr "ICPC"
 
 #: judge/contest_format/icpc.py:137
 msgid "Ties will be broken by the sum of the last score altering submission time on problems with a non-zero score, followed by the time of the last score altering submission."
-msgstr ""
+msgstr "Các thí sinh bằng điểm sẽ được phân định bằng tổng thời gian của **lần nộp "
+"bài cuối cùng làm thay đổi kết quả** trong các bài tập có điểm lớn hơn 0. "
+"Nếu vẫn bằng nhau, phân định bằng **lần nộp bài cuối cùng làm thay đổi kết "
+"quả**."
 
 #: judge/contest_format/ioi.py:11
 msgid "IOI"
@@ -538,11 +484,12 @@ msgstr "IOI"
 
 #: judge/contest_format/ioi.py:96
 msgid "The maximum score for each problem batch will be used."
-msgstr ""
+msgstr "Điểm của bài là tổng điểm của các subtask"
 
 #: judge/contest_format/ioi.py:99 judge/contest_format/legacy_ioi.py:100
 msgid "Ties will be broken by the sum of the last score altering submission time on problems with a non-zero score."
-msgstr ""
+msgstr "Các thí sinh bằng điểm sẽ được phân định bằng tổng thời gian của **lần nộp "
+"bài cuối cùng làm thay đổi kết quả** trong các bài tập có điểm lớn hơn 0."
 
 #: judge/contest_format/legacy_ioi.py:18
 msgid "IOI (pre-2016)"
@@ -555,7 +502,7 @@ msgstr "Mã xác thực 2 lớp phải có {TOTP_CODE_LENGTH} chữ số."
 
 #: judge/forms.py:30
 msgid "Invalid two-factor authentication token."
-msgstr "Mã xác thực không đúng"
+msgstr "Mã xác thực 2 lớp không đúng"
 
 #: judge/forms.py:33
 msgid "Scratch codes must be 16 base32 characters."
@@ -575,7 +522,7 @@ msgstr "Bật các tính năng đang thử nghiệm"
 
 #: judge/forms.py:72
 msgid "You must solve at least one problem before you can update your profile."
-msgstr "Bạn cần phải giải ít nhất một bài trước khi được quyền cập nhật hồ sơ."
+msgstr "Bạn phải giải ít nhất một bài trước khi có thể bỏ thay đổi thông tin người dùng"
 
 #: judge/forms.py:81 judge/views/organization.py:126
 #, python-brace-format
@@ -584,11 +531,11 @@ msgstr "Bạn không thể là thành viên của nhiều hơn {count} tổ ch�
 
 #: judge/forms.py:97
 msgid "Download comments?"
-msgstr "Tải các bình luận về?"
+msgstr "Tải tất cả các bình luận?"
 
 #: judge/forms.py:98
 msgid "Download submissions?"
-msgstr "Tải xuống các bài nộp?"
+msgstr "Tải tất cả các bài nộp?"
 
 #: judge/forms.py:99
 msgid "Filter by problem code glob:"
@@ -596,7 +543,7 @@ msgstr "Sắp xếp theo mã bài tập:"
 
 #: judge/forms.py:103
 msgid "Leave empty to include all submissions"
-msgstr "Hãy để trống để bao gồm mọi bài nộp"
+msgstr "Hãy để trống để  bao gồm tất cả bài nộp"
 
 #: judge/forms.py:106 templates/problem/manage_submission.html:142
 msgid "Filter by result:"
@@ -627,7 +574,7 @@ msgstr "Độ dài của bài nộp không hợp lệ."
 
 #: judge/forms.py:223
 msgid "Invalid WebAuthn response."
-msgstr "Phản hồi WebAuthn không hợp lệ."
+msgstr ""
 
 #: judge/forms.py:226
 msgid "No WebAuthn challenge issued."
@@ -639,7 +586,7 @@ msgstr ""
 
 #: judge/forms.py:262
 msgid "Invalid two-factor authentication token or scratch code."
-msgstr "Mã xác thực hoặc mã truy cập không hợp lệ."
+msgstr "Mã xác thực 2 lớp hoặc mã truy cập không hợp lệ."
 
 #: judge/forms.py:266
 msgid "Must specify either totp_token or webauthn_response."
@@ -647,15 +594,15 @@ msgstr ""
 
 #: judge/forms.py:270 judge/models/problem.py:119
 msgid "Problem code must be ^[a-z0-9]+$"
-msgstr "Mã đầu bài chỉ bao gồm ^[a-z0-9] + $"
+msgstr "Mã bài chỉ bao gồm ^[a-z0-9] + $"
 
 #: judge/forms.py:275
 msgid "Problem with code already exists."
-msgstr "Mã bài tập đã tồn tại."
+msgstr "Mã bài đã tồn tại."
 
 #: judge/forms.py:280 judge/models/contest.py:66
 msgid "Contest id must be ^[a-z0-9]+$"
-msgstr "id cuộc thi phải bao gồm ^[a-z0-9] + $"
+msgstr "id kỳ thi phải bao gồm ^[a-z0-9] + $"
 
 #: judge/forms.py:285
 msgid "Contest with key already exists."
@@ -2185,7 +2132,7 @@ msgstr "Tải cho phút cuối cùng, chia cho số bộ vi xử lý."
 
 #: judge/models/runtime.py:139 judge/models/runtime.py:181
 msgid "judges"
-msgstr "chấm điểm"
+msgstr "Máy chấm"
 
 #: judge/models/runtime.py:180
 msgid "judge"
@@ -2248,7 +2195,7 @@ msgstr "Đang xử lý"
 
 #: judge/models/submission.py:39 judge/models/submission.py:60
 msgid "Grading"
-msgstr "Chấm điểm"
+msgstr "Máy chấm"
 
 #: judge/models/submission.py:40 judge/models/submission.py:61
 msgid "Completed"
@@ -3060,21 +3007,21 @@ msgstr "Nộp %(problem)s bởi %(user)s"
 #: judge/views/submission.py:205 judge/views/submission.py:206
 #: templates/problem/problem.html:127
 msgid "All submissions"
-msgstr "Tất cả các bài nộp"
+msgstr "Bảng chấm bài"
 
 #: judge/views/submission.py:355
 msgid "All my submissions"
-msgstr "Tất cả những lần nộp bài của tôi"
+msgstr "Các bài nộp của tôi"
 
 #: judge/views/submission.py:356
 #, python-format
 msgid "All submissions by %s"
-msgstr "Tất cả các bài nộp bởi %s"
+msgstr "Các bài nộp bởi %s"
 
 #: judge/views/submission.py:387
 #, python-format
 msgid "All submissions for %s"
-msgstr "Tất cả các bài nộp bởi %s"
+msgstr "Các bài nộp bởi %s"
 
 #: judge/views/submission.py:410
 msgid "Must pass a problem"
@@ -3088,11 +3035,11 @@ msgstr "Các bài nộp của tôi cho %(problem)s"
 #: judge/views/submission.py:450
 #, python-format
 msgid "%(user)s's submissions for %(problem)s"
-msgstr "bài nộp của %(user)s cho %(problem)s"
+msgstr "Các bài nộp của %(user)s cho %(problem)s"
 
 #: judge/views/submission.py:548
 msgid "Must pass a contest"
-msgstr "Phải vượt qua một cuộc thi"
+msgstr "Phải vượt qua một kỳ thi"
 
 #: judge/views/submission.py:556
 #, python-format
@@ -3112,12 +3059,12 @@ msgstr "Các bài nộp của tôi trong <a href=\"{1}\">{0}</a>"
 #: judge/views/submission.py:573
 #, python-brace-format
 msgid "<a href=\"{1}\">{0}</a>'s submissions in <a href=\"{3}\">{2}</a>"
-msgstr "Bài nộp của <a href=\"{1}\">{0}</a> trong  <a href=\"{3}\">{2}</a>"
+msgstr "Các bài nộp của <a href=\"{1}\">{0}</a> trong <a href=\"{3}\">{2}</a>"
 
 #: judge/views/submission.py:599
 #, python-brace-format
 msgid "<a href=\"{1}\">{0}</a>'s submissions for <a href=\"{3}\">{2}</a> in <a href=\"{5}\">{4}</a>"
-msgstr "<a href=\"{1}\">{0}</a> gửi cho <a href=\"{3}\">{2}</a> trong <a href=\"{5}\">{4}</a>"
+msgstr "Các bài nộp của <a href=\"{1}\">{0}</a> cho <a href=\"{3}\">{2}</a> trong <a href=\"{5}\">{4}</a>"
 
 #: judge/views/submission.py:604
 #, python-brace-format
@@ -3260,7 +3207,7 @@ msgstr ""
 
 #: judge/views/user.py:442 templates/user/user-list-tabs.html:4
 msgid "Leaderboard"
-msgstr "Leaderboard"
+msgstr "Bảng xếp hạng"
 
 #: judge/views/user.py:503
 msgid "You have been successfully logged out."
@@ -4405,7 +4352,7 @@ msgstr "Ẩn các bài đã có lời giải"
 
 #: templates/problem/search-form.html:27
 msgid "Show problem types"
-msgstr "Hiện loại đề"
+msgstr "Hiện dạng đề"
 
 #: templates/problem/search-form.html:33 templates/problem/search-form.html:35
 #: templates/submission/submission-list-tabs.html:4
@@ -4414,11 +4361,11 @@ msgstr "Tất cả"
 
 #: templates/problem/search-form.html:46
 msgid "Problem types"
-msgstr "Kiểu bài tập"
+msgstr "Dạng bài tập"
 
 #: templates/problem/search-form.html:57
 msgid "Point range"
-msgstr "Tầm điểm"
+msgstr "Khoảng điểm"
 
 #: templates/problem/search-form.html:63 templates/submission/list.html:328
 #: templates/ticket/list.html:248
